@@ -4,15 +4,19 @@ body {
   display: flex;
   flex-direction: column;
 }
-h1{
-font-size: 70px;
-font-family: sans-serif;
+
+h1 {
+  font-size: 70px;
+  font-family: sans-serif;
 }
-h2{
-  padding: 0; margin-bottom: 5%;
+
+h2 {
+  padding: 0;
+  margin-bottom: 5%;
   font-size: 40px;
   font-family: sans-serif;
-  }
+}
+
 #titled {
   padding: 4% 2%;
   text-transform: uppercase;
@@ -21,64 +25,74 @@ h2{
 main {
   padding: 1% 10%;
 }
-.window{
+
+.window {
   display: flex;
   flex-direction: row;
-  gap: 80px;;
-}
-.window div{
-  width: 100%;
-}
-.list-header{
-display:flex;flex-direction: row;align-items: center; gap: 40px;
+  gap: 80px;
 }
 
-.list-header a{
-text-decoration: none;
-border: 1px solid black;
-padding: 2px 40px;
-font-size: 20px;
-text-transform: capitalize;
-font-weight: bold;
-box-shadow: 2px 2px 8px grey;
+.window div {
+  width: 100%;
 }
-.score-list{
+
+.list-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.list-header a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 2px 40px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  box-shadow: 2px 2px 8px grey;
+}
+
+.score-list {
   border: 2px solid black;
-  padding: 0px;
+  padding: 0;
 }
+
 li:nth-child(even) {
   background-color: rgb(243, 242, 242);
 }
-.score-list li{
+
+.score-list li {
   list-style: none;
   display: flex;
-  padding: 10px ;
+  padding: 10px;
   flex-direction: row;
   gap: 10px;
-}.score-list li span{
+}
+
+.score-list li span {
   font-size: 20px;
   text-transform: capitalize;
   font-family: sans-serif;
 }
 
-
-
-.score-form{
+.score-form {
   background-color: white;
 }
-.score-form form{
-  display:flex; 
+
+.score-form form {
+  display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
-.score-form form input{
+
+.score-form form input {
   width: 60%;
   font-size: 20px;
   padding: 2% 1%;
-
 }
-.score-form form button{
+
+.score-form form button {
   width: 30%;
   font-size: 20px;
   margin-top: 1%;
@@ -88,5 +102,4 @@ li:nth-child(even) {
   text-transform: capitalize;
   font-weight: bold;
   font-family: sans-serif;
-
 }
