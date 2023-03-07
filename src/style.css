@@ -43,7 +43,7 @@ main {
   gap: 40px;
 }
 
-.list-header a {
+.list-header button {
   text-decoration: none;
   border: 1px solid black;
   padding: 2px 40px;
