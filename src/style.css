@@ -14,6 +14,7 @@ h2 {
   padding: 0;
   margin-bottom: 5%;
   font-size: 40px;
+  color: #525252;
   font-family: sans-serif;
 }
 
@@ -53,6 +54,24 @@ main {
   box-shadow: 2px 2px 8px grey;
 }
 
+.score-form form button {
+  width: 30%;
+  font-size: 20px;
+  margin-top: 1%;
+  margin-left: 200px;
+  padding: 1% 1%;
+  box-shadow: 2px 2px 8px grey;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.list-header button:hover {
+  background-color: rgb(4, 230, 192);
+  color: white;
+  border: 0 solid black;
+}
+
 .score-list {
   border: 2px solid black;
   padding: 0;
@@ -87,19 +106,13 @@ li:nth-child(even) {
 }
 
 .score-form form input {
-  width: 60%;
+  width: 70%;
   font-size: 20px;
   padding: 2% 1%;
 }
 
-.score-form form button {
-  width: 30%;
-  font-size: 20px;
-  margin-top: 1%;
-  margin-left: 200px;
-  padding: 1% 1%;
-  box-shadow: 2px 2px 8px grey;
-  text-transform: capitalize;
-  font-weight: bold;
-  font-family: sans-serif;
+.score-form form button:hover {
+  background-color: rgb(4, 230, 192);
+  color: white;
+  border: 0 solid black;
 }
