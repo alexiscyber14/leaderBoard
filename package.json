@@ -12,12 +12,6 @@
   "jest": {
     "testEnvironment": "jsdom"
   },
-<<<<<<< HEAD
-  "jest": {
-    "testEnvironment": "jsdom"
-  },
-=======
->>>>>>> 6b4e7204254442699e473a5ecef8d10f8cf06e91
   "keywords": [],
   "author": "",
   "license": "ISC",
