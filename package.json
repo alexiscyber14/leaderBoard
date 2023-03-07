@@ -1,12 +1,13 @@
 {
-  "name": "to-do-list",
+  "name": "leader-board",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve",
-    "test": "jest"
+    "test": "jest --coverage",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "jest": {
     "testEnvironment": "jsdom"
